@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    cursor: url('images/cursor.svg'), auto;
+}
+
+.container{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(68, 145, 233);
+
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+}
+#result h1{
+    font-size: 34px;
+    color: white;
+    display: inline-block;
+    font-weight: 400;
+}
+
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    color: white;
+    background: none;
+    border: 2px solid rgb(255, 255, 255);
+    transition: 0.1s;
+    cursor: pointer;
+
+}
+.button button:hover{
+    background: white;
+    color: black;
+}
+
+
+
+header{
+    height: 5vh;
+    width: 100%;
+    background: rgb(68, 145, 233);
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h3{
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+
+.nav ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: 0.3s;
+}
+#twitter a:hover{
+    color: rgb(0, 172, 240);
+}
+#insta a:hover{
+    color: rgb(240, 0, 72);
+}
+#github a:hover{
+    color: rgb(0, 0, 0);
+}
+.nav li{
+    margin: 5px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
