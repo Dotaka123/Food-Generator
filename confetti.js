@@ -17,7 +17,7 @@ openbtn.addEventListener("click", () => {
   const stopit = () => {
     setTimeout(function () {
       confetti.stop();
-    }, 5000);
+    }, 10000);
   };
   // playing start
   startit();
