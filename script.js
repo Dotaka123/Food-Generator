@@ -1,4 +1,3 @@
-if(true){
     let timerStarted = false;
 
     function startTimer() {
@@ -42,6 +41,3 @@ if(true){
         }
 
     }
-}
-
-
