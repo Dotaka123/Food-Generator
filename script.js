@@ -22,7 +22,7 @@
                 }else {
                     clearInterval(invervalid)
                         const result = document.querySelector('h1');
-                        let random = ['PIZZA','BURGER','ASIAN','CHINESE','INDIAN','GERMAN','FISH','ITALIAN','MEXICANISH','PASTA','BOWL','STEAK','SUSHI','TURKISH','TURKISH PIZZA'];
+                        let random = ['Henakisoa sy ravitoto','Vilo kely','Anan-drano sy totonkena','Legume','Akoha sy legume','Trondro hendasina','Trondro handraoina','Crevette sy henakisoa','Tongotr'akoha','PASTA','BOWL','STEAK','SUSHI','TURKISH','TURKISH PIZZA'];
     
     
                         function randomNumber(min, max) {
