@@ -22,7 +22,7 @@
                 }else {
                     clearInterval(invervalid)
                         const result = document.querySelector('h1');
-                        let random = ['Henakisoa sy ravitoto','Vilo kely','Anan-drano sy totonkena','Legume','Akoha sy legume','Trondro hendasina','Trondro handraoina','Crevette sy henakisoa','Tongotr'akoha','PASTA','BOWL','STEAK','SUSHI','TURKISH','TURKISH PIZZA'];
+                        let random = ['Henakisoa_sy_ravitoto','Vilokely','Anan-drano_sy_totonkena','Legume','Akoha_sy_legume','Trondro_hendasina','Trondro_handraoina','Crevette_sy_henakisoa','Tongotr akoha','PASTA','BOWL','STEAK','SUSHI','TURKISH','TURKISH PIZZA'];
     
     
                         function randomNumber(min, max) {
